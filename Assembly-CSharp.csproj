@@ -46,13 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Examples\Scripts\AppConstant.cs" />
-     <Compile Include="Assets\Examples\Scripts\FBLeaderBoard.cs" />
-     <Compile Include="Assets\Examples\Scripts\FBService.cs" />
-     <Compile Include="Assets\Examples\Scripts\LeaderBoard.cs" />
-     <Compile Include="Assets\Examples\Scripts\LeaderBoard1.cs" />
-     <Compile Include="Assets\Examples\Scripts\LeaderBoardCallBack.cs" />
-     <Compile Include="Assets\Examples\Scripts\SaveCallback.cs" />
      <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
      <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
      <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
@@ -64,6 +57,11 @@
      <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
      <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
      <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\scripts\Scripts\AppConstant.cs" />
+     <Compile Include="Assets\scripts\Scripts\FBLeaderBoard.cs" />
+     <Compile Include="Assets\scripts\Scripts\GlobalLeaderBoard.cs" />
+     <Compile Include="Assets\scripts\Scripts\LeaderBoardCallBack.cs" />
+     <Compile Include="Assets\scripts\Scripts\SaveCallback.cs" />
      <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_list_selector.xml" />
      <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_activity_circle_row.xml" />
      <None Include="Assets\Plugins\Android\res\values-iw\strings.xml" />
