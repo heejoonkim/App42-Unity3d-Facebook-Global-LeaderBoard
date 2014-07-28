@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AppScripts\LeaderBoardCallBack.cs">
+    <Files>
+      <File FileName="Assets\Scripts\AppScripts\App42APIs.cs" Line="21" Column="27" />
+      <File FileName="Assets\Scripts\AppScripts\FBUserConnect.cs" Line="21" Column="3" />
+      <File FileName="Assets\Scripts\AppScripts\FBLeaderBoard.cs" Line="49" Column="5" />
+      <File FileName="c:\Users\App42Admin\Downloads\Facebook-OAuth-For-Unity-master\Facebook-OAuth-For-Unity-master\FB_GLOBAL_LEADERBOARD\Assets\Scripts\AppScripts\MyGame.cs" Line="10" Column="20" />
+      <File FileName="Assets\Scripts\AppScripts\LeaderBoardCallBack.cs" Line="14" Column="43" />
+      <File FileName="Assets\Scripts\AppScripts\AppController.cs" Line="29" Column="103" />
+      <File FileName="Assets\Scripts\AppScripts\LoadingMessage.cs" Line="34" Column="29" />
+      <File FileName="Assets\Scripts\AppScripts\AppConstants.cs" Line="32" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
