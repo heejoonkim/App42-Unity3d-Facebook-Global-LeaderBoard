@@ -57,7 +57,7 @@
      <Compile Include="Assets\Scripts\AppScripts\Texture.cs" />
      <Compile Include="Assets\Scripts\UIScripts\Effects\CameraRotationEffect.cs" />
  <Reference Include="App42_Unity3D_SDK_2.8">
- <HintPath>C:/Users/App42Admin/Downloads/Facebook-OAuth-For-Unity-master/Facebook-OAuth-For-Unity-master/FB_GLOBAL_LEADERBOARD/Assets/App42_Unity3D_SDK_2.8.dll</HintPath>
+ <HintPath>D:/@KSH@Y/UNITY3D-PROJECTS/Global-LeaderBoard-1/FB_GLOBAL_LEADERBOARD/Assets/App42_Unity3D_SDK_2.8.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
