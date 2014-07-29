@@ -15,11 +15,18 @@ public class FBUserConnect : MonoBehaviour {
 
 	void OnGUI()
 	{
+		if(AppConstants.API_KEY == "API_KEY" || AppConstants.SECRET_KEY == "SECRET_KEY"){
+			float width = 700f;
+			float height = 100f;
+			float left = Screen.width / 2 - 350f;
+			float top = Screen.height / 2 - height;
+			Rect rect = new Rect(left, top, width, height);
+			GUI.Label (rect, " 1. Please Enter API_KEY and SECRET_KEY in AppConstants.cs File.\n 2. Create a game and paste the GameName in that file.\n 3. Create an app on facebook and paste Facebook AppId. \n 4. Go to AppHQ console BusinessServiceManager->SocialService->Facebook Settings-> \n  Paste Facebook AppId & AppSecret");
+		}
 		GUILayout.BeginArea(new Rect (Screen.width/2 - 150, Screen.height/2 - 100, 300,300));
 		GUILayout.BeginVertical();
 		GUI.skin = Myskin;
-
-		if	(!LeaderBoardCallBack.isConnected && GUILayout.Button("FACEBOOK CONNECT", GUILayout.Height(70),GUILayout.Width(300)))
+		if	(!LeaderBoardCallBack.isConnected && AppConstants.API_KEY != "API_KEY" && GUILayout.Button("FACEBOOK CONNECT", GUILayout.Height(70),GUILayout.Width(300)))
 		{	 
 			 LoadingMessage.SetMessage("Connecting To Facebook...");
 			 new App42APIs().ConnectWithFacebook();
@@ -30,13 +37,13 @@ public class FBUserConnect : MonoBehaviour {
 			Application.LoadLevel("GameScene");
 		}
 		
-		if	(GUILayout.Button("GLOBAL LEADERBOARD", GUILayout.Height(70),GUILayout.Width(300)))
+		if	(AppConstants.API_KEY != "API_KEY" && GUILayout.Button("GLOBAL LEADERBOARD", GUILayout.Height(70),GUILayout.Width(300)))
 		{	
 			LoadingMessage.SetMessage("Please Wait...");
 			new App42APIs().GlobalLeaderBoard(true);
 		}
 		
-		if	(GUILayout.Button("QUIT", GUILayout.Height(70),GUILayout.Width(300)))
+		if	(AppConstants.API_KEY != "API_KEY" && GUILayout.Button("QUIT", GUILayout.Height(70),GUILayout.Width(300)))
 		{
 			Application.Quit();
 		}

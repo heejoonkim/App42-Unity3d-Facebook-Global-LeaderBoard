@@ -13,7 +13,7 @@ public class AppConstants{
 	public static string gameName = "UnityGame";  // Create a Game in AppHQ console. About How to create Game see README.md.
 	public static string collectionName = "FBUserDetails";
 	public static string DB_NAME = "UnityDB";
-	public static string FB_APP_ID = "FB_APP_ID"; // Create An App on Facebook and Paste your Facebook AppId here.
+	public static string FB_APP_ID = "FB_APP_ID"; // Create An App on Facebook and Paste your Facebook AppId here, Also add facebook settings in apphq console..
 
 	/// <summary>
 	/// Gets the score service.
